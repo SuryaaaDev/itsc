@@ -383,7 +383,7 @@ footer .credit a:hover {
         background-color: #ffffff7e;
         backdrop-filter: blur(4px);
         text-align: center;
-        width: 110%;
+        width: 100%;
         transition: all 0.3s ease-in-out;
     }
 
