@@ -379,7 +379,8 @@ footer .credit a:hover {
         flex-direction: column;
         position: absolute;
         top: 80px;
-        left: -42px;
+        left: 50%;
+        transform: translateX(-54%);
         background-color: #ffffff7e;
         backdrop-filter: blur(4px);
         text-align: center;
