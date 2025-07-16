@@ -375,18 +375,24 @@ footer .credit a:hover {
 /* Aturan umum untuk perangkat seluler */
 @media only screen and (max-width: 480px) {
     .menu {
-        display: none; 
+        display: none;
         flex-direction: column;
+        align-items: center;
         position: absolute;
         top: 80px;
-        left: 50%;
-        transform: translateX(-54%);
-        background-color: #ffffff7e;
+        left: 0;
+        right: 0;
+        background-color: #ffffffc0;
         backdrop-filter: blur(4px);
         text-align: center;
         width: 100%;
+        padding: 10px 0;
+        z-index: 9;
         transition: all 0.3s ease-in-out;
+        margin: 0;
+        box-sizing: border-box;
     }
+
 
     .menu a {
         margin: 10px 0;
